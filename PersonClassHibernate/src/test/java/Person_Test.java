@@ -31,7 +31,7 @@ public class Person_Test {
 	
 	@Test
 	public void testFindDataById() {
-		boolean b=Person_Driver.findDataById(4);
+		boolean b=Person_Driver.findDataById(5);
 		assertTrue(b);
 	}
 	
@@ -53,10 +53,11 @@ public class Person_Test {
 	    assertFalse(b);
 	}
 
+	
 	@Test
 	public void testDeleteDataById() {
 	    Person_Driver p = new Person_Driver();
-	    boolean b = p.deleteDataById(5);
+	    boolean b = p.deleteDataById(4);
 	    assertTrue(b);
 	}
 	

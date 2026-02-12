@@ -13,10 +13,10 @@ public class Person_Driver {
 	
 	public static void insertData() {
 		Person p = new Person();
-		p.setId(6);
-		p.setName("Rinku");
-		p.setDob("08-10-1993");
-		p.setPincode(906785);
+		p.setId(4);
+		p.setName("Chinku");
+		p.setDob("25-10-1990");
+		p.setPincode(100785);
 		et.begin();
 		em.persist(p);
 		et.commit();
