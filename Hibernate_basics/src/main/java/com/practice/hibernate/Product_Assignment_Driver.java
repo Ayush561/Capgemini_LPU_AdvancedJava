@@ -15,7 +15,7 @@ public class Product_Assignment_Driver {
         insertDataFromUser(em, et);   // for normal run
     }
 
-    // 🔹 For JUnit testing (NO Scanner)
+    // For JUnit testing (NO Scanner)
     public static String insertData(EntityManager em, EntityTransaction et, Product_Assignment p) {
     	if(p!=null) {
         et.begin();
@@ -28,7 +28,7 @@ public class Product_Assignment_Driver {
     	}
     }
 
-    // 🔹 For normal user input
+    // For normal user input
     public static void insertDataFromUser(EntityManager em, EntityTransaction et) {
         Scanner sc = new Scanner(System.in);
 
