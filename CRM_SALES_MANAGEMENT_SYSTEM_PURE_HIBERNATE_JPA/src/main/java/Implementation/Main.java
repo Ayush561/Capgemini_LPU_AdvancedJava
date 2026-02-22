@@ -29,7 +29,7 @@ public class Main {
         addr.setZipCode("110001");
         customerService.addAddressToCustomer(1L, addr);
 
-        // 3. Add Products
+        
         productService.addProduct("Laptop", 50000);
         productService.addProduct("Mouse", 500);
 
